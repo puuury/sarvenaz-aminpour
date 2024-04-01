@@ -309,4 +309,7 @@ header a{
     .carousel .list .item .content .title{
         font-size: 30px;
     }
+    .thumbnail{
+        opacity: 0;
+    }
 }
