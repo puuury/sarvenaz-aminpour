@@ -3,8 +3,9 @@ body{
     margin: 0;
     background-color: #000;
     color: #eee;
-    font-family: Poppins;
+    font-family: "Vazirmatn", sans-serif;
     font-size: 12px;
+    display: flex;
 }
 a{
     text-decoration: none;
@@ -26,17 +27,19 @@ header a{
 }
 /* carousel */
 .carousel{
-    height: 100vh;
+    height: 120vh;
     margin-top: -50px;
     width: 100vw;
     overflow: hidden;
     position: relative;
+    
 }
 .carousel .list .item{
     width: 100%;
     height: 100%;
     position: absolute;
     inset: 0 0 0 0;
+    top: 10vh;
 }
 .carousel .list .item img{
     width: 100%;
@@ -199,6 +202,13 @@ header a{
     left: 50%;
     border-radius: 30px;
     animation: showImage .5s linear 1 forwards;
+}
+
+.des {
+    font-size: 32px;
+    min-height: 140px;
+    color: #FFCC00;
+    
 }
 @keyframes showImage{
     to{
