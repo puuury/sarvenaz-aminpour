@@ -317,9 +317,13 @@ header a{
         padding-right: 0;
     }
     .carousel .list .item .content .title{
-        font-size: 30px;
+        font-size: 18px;
+    }
+    .des {
+        font-size: 16px;
     }
     .thumbnail{
         opacity: 0;
     }
+ 
 }
