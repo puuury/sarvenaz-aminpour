@@ -312,7 +312,7 @@ header a{
         opacity: 0;
     }
 }
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 880px) {
     .carousel .list .item .content{
         padding-right: 0;
     }
